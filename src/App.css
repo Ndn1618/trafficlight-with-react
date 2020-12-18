@@ -33,11 +33,15 @@ body {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  box-shadow: 1px 1px 10px #333;
 }
 
 .trafficlight--off {
   opacity: 0.3;
+}
+
+.trafficlight--on {
+  box-shadow: 1px 1px 10px rgba(204, 204, 204, 0.5),
+    -1px -1px 10px rgba(204, 204, 204, 0.5);
 }
 
 .trafficlight__red {
